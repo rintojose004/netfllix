@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 31px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+
+}
+.nav__black {
+  background-color: #111;
+}
+.nav__logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+.nav__logout {
+  position: fixed;
+  right: 61px;
+  color: red;
+  font-style: normal;
+  font-family: "Audiowide", sans-serif;
+  font-weight: normal;
+  object-fit: contain;
+}
+.nav__avatar {
+  position: fixed;
+  width: 30px;
+  right: 20px;
+  object-fit: contain;
+}
